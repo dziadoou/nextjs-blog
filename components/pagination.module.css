@@ -1,0 +1,41 @@
+.container {
+  padding: 0 2rem;
+ }
+ 
+ .pagination {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+ }
+ 
+ .pageLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+ }
+ 
+ .pageItem {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 0.5rem;
+  cursor: pointer;
+ }
+ 
+ .pageItemActive {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2rem;
+  height: 2rem;
+  border: 1px solid #eaeaea;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: gray;
+ }
